@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'nexa'; /*a name to be used later*/
+    src: url('./fonts/nexa_bold.ttf'); /*URL to font*/
+}
+
+html, body {
+    font-family: 'nexa';
+    height: 100%;
+
+}
+
+
+
+.row-nav{
+    background-color: #d19219;
+    color: white;
+    margin-bottom: -5px;
+}
+
+.row-nav > nav a {
+    color: white;
+}
+
+.wrap{
+    height: 100%;
+    position: relative;
+    overflow:hidden;
+}
+
+.background-fixed{
+    background: url('../img/background-abajo.png');
+    background-size:100%; 
+    height: 100%;
+    background-position-y: top;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.bg{
+    
+    background: url('../img/background-arriba.png');
+    background-size: 100%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+.lucho-courier{
+    background: url('../img/lucho-pancarta.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buttons-group{
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 59px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 59px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 59px -7px rgba(0,0,0,0.75);
+}
+
+.list-group-item:hover{
+    background-color: #f8f9fa;
+}
+
+
+button{
+    border: none;
+    border-radius: 20px;
+}
+
+
+.brands{
+    background-color: #9647a7; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    max-height: 75px;
+    border-radius: 15px;
+}
+
+.pagos{
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productos{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.card-body-brands{
+    padding: 5px 5px 5px 5px;
+    color: #9647a7;
+
+}
+
+.card-text{
+    color: #9647a7;
+    visibility: hidden;
+}
+
+.bill-table{
+    background-color: #efac18;
+    border-radius: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+.bill-table-header{
+    background-color: #bf881b;
+}
+
+.modal-content{
+    background-color: transparent;
+    border:none;
+}
+
+.lucho-panel{
+    background: white;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+}
+
+.lucho-panel > button {
+    border-radius: 20px;
+    border:none;
+}
+
+button{
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+
+button.recargas{
+    background-color: #ea4b35;
+}
+
+button.facturas{
+    background-color: #c43926;
+}
+
+.list-group-recargas{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.modal-checkout{
+    overflow: visible;
+}
+
+.red{
+    background: #e8183b;
+}
+
+.bill-table-bottom > input{
+    border-radius: 30px;
+}
+
+.busqueda{
+    background-color: rgb(206, 206, 206)
+}
+
+.lucho-text {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-size: 1.3vw; 
+}
+
+.ft{
+    background-color: rgb(255, 126, 20);
+    text-align: center;
+    padding: 15px;
+    margin-top: -50px; 
+    color: white;
+}
+
+.bg-productos{
+    background: url('../img/bg-productos.png');
+    background-size: 100%;
+    background-repeat: inherit;
+}
+
+.clientes{
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 768px) {
+    section {
+      padding: 150px 0;
+    }
+  }
+  
+  .btn {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+  }
+  
+  .btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+  }
+  
+  .btn-primary {
+    background-color: #fe9036;
+    border-color: #fe9036;
+    border-radius: 15px;
+  }
+  
+  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
+  }
+  
+  .btn-primary:active, .btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  }
+  
+  ::-moz-selection {
+    background: #fed136;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #fed136;
+    text-shadow: none;
+  }
+  
+  img::-moz-selection {
+    background: transparent;
+  }
+  
+  img::selection {
+    background: transparent;
+  }
+  
+  img::-moz-selection {
+    background: transparent;
+  }
+  
+  .contact-bg{
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75); 
+  }
+  
+  section#contact {
+    background-color: #212529;
+    background-image: url("../img/bg-productos.png");
+    background-size: 100%;
+    
+    background-position: center;
+  }
+  
+  section#contact .section-heading {
+    color: #fff;
+  }
+  
+  section#contact .form-group {
+    margin-bottom: 25px;
+  }
+  
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 20px;
+  }
+  
+  section#contact .form-group input.form-control {
+    height: auto;
+  }
+  
+  section#contact .form-group textarea.form-control {
+    height: 248px;
+  }
+  
+  section#contact .form-control:focus {
+    border-color: #fed136;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  .nav-mobile{
+      background-color: #d0911e;
+      color: white;  
+     list-style: none;   
+  }
+
+  .nav-mobile a{
+      color: white;
+      text-decoration: none;
+      list-style-type: none;
+  }
+  
+
+@media screen and (min-width: 1200px)  {
+    .lucho-text {
+       font-size: 100%;
+    }
+  }
+
+@media only screen and (max-width: 992px){
+.container {
+    max-width: 95%;
+}
+
